@@ -20,4 +20,5 @@ void loop() {
     Color c = Color::fromHSV((float)frameCount + (float)i / PIXELS * 360 , 1, 1);
     strip.setPixelColor(i, c.toInt());
   }
+  delay(0.1);
 }
